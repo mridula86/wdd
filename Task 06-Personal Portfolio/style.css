@@ -1,0 +1,39 @@
+body
+{
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 15px;
+}
+
+h1
+{
+    color: white;
+    background: #0d47a1;
+    padding: 15px;
+}
+
+h2
+{
+    color: darkblue;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+th
+{
+    background: steelblue;
+    color: white;
+}
+
+td
+{
+    background: white;
+}
+
+img
+{
+    border-radius: 10px;
+}
