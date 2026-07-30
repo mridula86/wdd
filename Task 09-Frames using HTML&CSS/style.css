@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body{
+    height:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+
+/* Header */
+
+.header{
+    width:100%;
+    height:130px;
+    overflow:hidden;
+}
+
+.header iframe{
+    width:100%;
+    height:130px;
+    border:none;
+    display:block;
+}
+
+/* Main Layout */
+
+.container{
+    display:flex;
+    width:100%;
+    height:calc(100vh - 130px);
+}
+
+/* Left Menu */
+
+.menu{
+    width:220px;
+    min-width:220px;
+    background:#2c3e50;
+}
+
+.menu iframe{
+    width:100%;
+    height:100%;
+    border:none;
+    display:block;
+}
+
+/* Content Area */
+
+.content{
+    flex:1;
+    background:#ffffff;
+    overflow:auto;
+}
+
+.content iframe{
+    width:100%;
+    height:100%;
+    border:none;
+    display:block;
+}
